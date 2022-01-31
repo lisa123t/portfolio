@@ -1,0 +1,28 @@
+body {background-color: rgb(226, 193, 209);
+      color: hsl(0, 0%, 0%);
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';}
+
+h1 {text-align: center;
+    color: rgb(245, 214, 229); 
+    padding: 30px; 
+    margin-left: 60px; 
+    margin-right: 60px; 
+    background-color:rgb(238, 165, 105);
+ }
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+ul { list-style-type: circle; 
+    color: rgb(194, 94, 13); 
+    width: fit-content; 
+    padding-bottom: 30px; 
+    margin-left: auto; 
+    margin-right: auto; }
+
+li {padding: 10px; }
+
