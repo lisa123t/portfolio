@@ -19,7 +19,7 @@ someNumber -= 4;
 document.write("Subtract 4 and get: ", someNumber); 
 
 /* divide by 2 */ 
-someNumber // 2; 
+someNumber / 2; 
 document.write("Divide by 2 and you have: ", someNumber); 
 
 /* subtract the inital number */ 
