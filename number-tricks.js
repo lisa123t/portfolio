@@ -25,3 +25,5 @@ document.write("Divide by 2 and you have: ", someNumber);
 /* subtract the inital number */ 
 someNumber -= startNumber; 
 document.write("Subract the number you first chose and you get: ", someNumber); 
+
+alert("Your final number is: ", someNumber); 
