@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+<head> 
+
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="style.css"> 
+
+    <title> Lisa Tomasetti - Lab 2 - Number Tricks </title>
+   
+<script>
+
+    /* get input*/ 
+    var entryNumber = prompt("Pick a number, any number: ", );
+
+    /* store the entry as an integer*/ 
+    var entryNumber = parseInt(entryNumber); 
+
+    var startNumber = entryNumber; 
+
+</script> 
+
+</head>
+
+<body>
+
+    <main> 
+
+    <script>  
+
+     /* add 9 to your number */ 
+     entryNumber = entryNumber += 9; 
+     document.write("Add 9 to your number and you get: ", entryNumber, "<br>" ); 
+
+
+     /* mulitply the number by 2 */
+     entryNumber = entryNumber *= 2; 
+     document.write("Multiply that number by 2: ", entryNumber, "<br>"); 
+
+     
+     /* subtract by 4 */
+     entryNumber = entryNumber -= 4; 
+     document.write("Subract 4 from that number and get: ", entryNumber, "<br>"); 
+
+     /* divide by 2 */ 
+     entryNumber = entryNumber / 2; 
+     document.write("Divide that number by 2: ", entryNumber, "<br>"); 
+
+
+     /* subtract the inital number */ 
+     
+     entryNumber = entryNumber -= startNumber; 
+
+     alert("Subract your inital number and you get: "+ entryNumber + "!" ); 
+
+    </script> 
+
+    </main>
+
+
+</body>
+
+</html>
