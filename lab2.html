@@ -12,13 +12,16 @@
    
 <script>
 
+do{ 
+    
     /* get input*/ 
     var entryNumber = prompt("Pick a number, any number: ", );
 
     /* store the entry as an integer*/ 
     var entryNumber = parseInt(entryNumber); 
 
-    var startNumber = entryNumber; 
+    var startNumber = entryNumber;
+} while (isNaN(entryNumber)) 
 
 </script> 
 
