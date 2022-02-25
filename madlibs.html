@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+      
+<title>Lisa Tomasetti - Madlibs</title> 
+
+<meta charset="UTF-8"> 
+
+<link rel = "stylesheet" href="madlibs.css">
+
+</head>
+
+<body>
+
+<div id="wrapper">
+<img src = "https://www.madlibs.com/wp-content/themes/madlibs/dist/images/intro_logo.png" width="20%" height="auto" alt="mad libs logo">
+<h1>Please enter the following information:</h1>
+
+
+
+    <input type="text" id="pluralNoun"  placeholder="a plural noun"><br>
+    <input type="text" id="noun1"  placeholder="a noun"><br>
+    <input type="text" id="noun2" placeholder="another noun"><br>
+    <input type="text" id="song" placeholder="song"><br>
+    <input type="text" id="verb" placeholder="verb"><br>
+    
+
+
+<button type="button" onclick="formStory()">Submit</button> 
+
+
+<div id="result" style="display:none">
+
+<p> Learning to drive is a tricky process. </p> <br> 
+
+<p> Keep two <span id="word1">feet</span> on the steering wheel at all times. </p> <br>
+
+<p> Step on the <span id="word2">gas</span> to go faster and the <span id="word3">break</span> 
+    to go slower.</p> <br> 
+
+<p> Make sure <span id="word4">song</span> is playing on the radio.</p> <br> 
+
+<p> You must <span id="word5">stop</span> when you see "stop" on a street sign.</p> <br> 
+
+
+<button type="button" onclick="goAgain()">Go Again</button> 
+
+
+</div> 
+
+
+</div>   
+
+
+<script>
+
+ function formStory() {
+    document.getElementById("result").style.display = "inline";
+    document.getElementById("word1").innerHTML = 
+        document.getElementById("pluralNoun").value; 
+    document.getElementById("word2").innerHTML = 
+        document.getElementById("noun1").value; 
+    document.getElementById("word3").innerHTML =
+        document.getElementById("noun2").value; 
+    document.getElementById("word4").innerHTML = 
+        document.getElementById("song").value; 
+    document.getElementById("word5").innerHTML =
+        document.getElementById("verb").value; 
+ } 
+    
+ function goAgain(){
+    location.reload(); 
+    return false; 
+    }
+
+</script>
+
+
+</body>
+</html> 
