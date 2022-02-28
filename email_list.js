@@ -27,7 +27,7 @@ var joinList = function() {
 
     // submit the form if all entries are valid
     // otherwise, display an error message
-    if (errorMessage = "") {
+    if (errorMessage == "") {
         $("email_form").submit(); 
     } else {
     	alert(errorMessage);
@@ -38,3 +38,4 @@ window.onload = function() {
     $("join_list").onclick = joinList;
     $("email_address1").focus();
 };
+
