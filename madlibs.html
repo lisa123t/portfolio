@@ -72,17 +72,19 @@
     document.getElementById("word5").innerHTML =
         document.getElementById("verb").value; 
     
-    function upper(el) { 
-        var str = el.value; 
-       el.value = str.toUpperCase();} 
+    var str = document.getElementById("pluralNoun").value; 
+      document.getElementById("pluralNoun").value = str.toUpperCase(); 
+    var str = document.getElementById("noun1").value; 
+      document.getElementById("noun1").value = str.toUpperCase(); 
+    var str = document.getElementById("noun2").value; 
+       document.getElementById("noun2").value = str.toUpperCase(); 
+    var str = document.getElementById("song").value; 
+       document.getElementById("song").value = str.toUpperCase(); 
+    var str = document.getElementById("verb").value; 
+       document.getElementById("verb").value = str.toUpperCase(); 
        
-    upper(document.getElementById("pluralNoun").value); 
-    upper(document.getElementById("noun1").value); 
-    upper(document.getElementById("noun2").value); 
-    upper(document.getElementById("song").value); 
-    upper(document.getElementById("verb").value);
- } 
-    
+ }
+       
 function goAgain(){
     location.reload(); 
     return false; 
