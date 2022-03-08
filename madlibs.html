@@ -56,10 +56,7 @@
 
 <script>
 
- function upper(el) { 
-   var str = el.value; 
-   el.value = str.toUpperCase(); 
-  } 
+
 
       
  function formStory() {
@@ -75,6 +72,10 @@
     document.getElementById("word5").innerHTML =
         document.getElementById("verb").value; 
     
+    function upper(el) { 
+        var str = el.value; 
+       el.value = str.toUpperCase();} 
+       
     upper(document.getElementById("pluralNoun").value); 
     upper(document.getElementById("noun1").value); 
     upper(document.getElementById("noun2").value); 
