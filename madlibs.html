@@ -56,6 +56,12 @@
 
 <script>
 
+ function upper(el) { 
+   var str = el.value; 
+   el.value = str.toUpperCase(); 
+  } 
+
+      
  function formStory() {
     document.getElementById("result").style.display = "inline";
     document.getElementById("word1").innerHTML = 
@@ -76,15 +82,11 @@
     upper(document.getElementById("verb").value);
  } 
     
- function goAgain(){
+function goAgain(){
     location.reload(); 
     return false; 
     }
       
- function upper(el) { 
-   var str = el.value; 
-   el.value = str.toUpperCase(); 
-  } 
 
 </script>
 
